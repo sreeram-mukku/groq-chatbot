@@ -1,9 +1,10 @@
 # High-Speed RAG Chatbot with Groq & LangChain
 
+### 🚀 [Checkout the Live Chatbot Here!](https://groq-chatbot-rag.streamlit.app/) 🚀
+
 A high-performance, context-aware chatbot that uses Retrieval-Augmented Generation (RAG) to answer questions based on user-uploaded documents. Built with Python and Streamlit, it leverages the blazing-fast Groq API for real-time inference and LangChain for robust conversational memory management.
 
 <img width="1908" height="897" alt="image" src="https://github.com/user-attachments/assets/fdc7a3a2-7aac-478c-affa-c9b13b643511" />
-
 
 ---
 
