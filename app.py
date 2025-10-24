@@ -163,7 +163,7 @@ def initialize_conversation_chain():
 
         # Initialize ChatGroq with llama-3.1-8b-instant model
         llm = ChatGroq(
-            api_key=SecretStr(groq_api_key),
+            api_key=groq_api_key,
             model="llama-3.1-8b-instant",
             temperature=0.7,
             max_tokens=1024
@@ -519,6 +519,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
