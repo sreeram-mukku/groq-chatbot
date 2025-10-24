@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import json
 from datetime import datetime
-from langchain import ConversationChain
+from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
 from langchain_groq import ChatGroq
 from pydantic import SecretStr
@@ -519,5 +519,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
